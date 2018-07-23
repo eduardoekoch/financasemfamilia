@@ -3,7 +3,7 @@ require 'rails_helper'
   feature 'Register of expenses' do
     scenario 'successfully' do
 
-      visit expense_path
+      visit new_expense_path
 
       fill_in 'Data', with: '01/08/2018'
       fill_in 'Descrição', with: 'Compra de calça jeans'
@@ -13,6 +13,29 @@ require 'rails_helper'
       click_on 'Registrar'
 
       expect(page).to have_css('p', text: 'Saída de recursos cadastrada com sucesso!')
+      expect(page).to have_css('p', text: 'Data: 01/08/2018')
+      expect(page).to have_css('p', text: 'Descrição: Compra de calça jeans')
+      expect(page).to have_css('p', text: 'Valor: R$109,70')
+      expect(page).to have_css('p', text: 'Tipo: Vestuário e acessórios')
       
+      
+    end
+
+    scenario 'insuccessfully' do
+
+      visit new_expense_path
+
+      fill_in 'Data', with: ''
+      fill_in 'Descrição', with: 'Comprei uma calça jens azul da marca Jens Sucesso e comprei uma saia e blusa para minha filha,
+       todas rosas com flores vermelhas e comprei uma gravata para meu marido'
+      fill_in 'Valor', with: ''
+      select '', from: 'Tipo'
+
+      click_on 'Registrar'
+
+      expect(page).to have_css('p', text: 'Data não pode ficar em branco')
+      expect(page).to have_css('p', text: 'Descrição excede o limite de 25 caracteres')
+      expect(page).to have_css('p', text: 'Valor não pode ficar em branco')
+      expect(page).to have_css('p', text: 'Tipo não pode ficar em branco')
     end
   end
