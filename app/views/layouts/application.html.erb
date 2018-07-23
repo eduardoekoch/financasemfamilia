@@ -7,12 +7,12 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= flash[:alert]  %>
-    <%= flash[:notice]  %>
-    <%= flash[:success]  %>
   </head>
 
   <body>
+    <%= flash[:notice]  %>
+    <%= flash[:alert]  %>
+    <%= flash[:success]  %>
     <%= yield %>
   </body>
 </html>
