@@ -5,6 +5,6 @@ feature 'visit_home_index' do
     visit root_path
 
     expect(page).to have_content('Cadastre-se')
-    expect(page).to have_content('Login')
+    expect(page).to have_content('Entrar')
   end
 end
