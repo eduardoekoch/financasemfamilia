@@ -5,12 +5,12 @@ feature 'visitor_sign_up' do
     visit root_path
 
     click_on 'Cadastro'
-    click_on 'Sign up'
+    click_on 'Cadastrar-me'
 
     fill_in 'Email', with: 'teste@gmail.com'
     fill_in 'Senha', with: '123456'
     fill_in 'Confirmar', with: '123456'
-    click_on 'Sign up'
+    click_on 'Cadastrar-me'
 
     expect(page).to have_content('Login efetuado com sucesso.')
     expect(page).to have_content('teste@gmail.com')
