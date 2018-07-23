@@ -4,8 +4,7 @@ feature 'visitor_sign_up' do
   scenario 'successfully' do
     visit root_path
 
-    click_on 'Cadastro'
-    click_on 'Cadastrar-me'
+    click_on 'Cadastre-se'
 
     fill_in 'Email', with: 'teste@gmail.com'
     fill_in 'Senha', with: '123456'

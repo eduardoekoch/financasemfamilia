@@ -1,6 +1,13 @@
-<% if user_signed_in? %>
-  <%= current_user.email %>
-  <%= link_to 'Sair', destroy_user_session_path, method: :delete %>
-<% else %>
-  <%= link_to 'Cadastro', new_user_session_path %>
-<% end %>
+<html>
+<div>
+  <ul>
+  <% if user_signed_in? %>
+    <li><%= current_user.email %></li>
+    <li><%= link_to I18n.t(:logout), destroy_user_session_path, method: :delete %></li>
+  <% else %>
+    <li><%= link_to I18n.t(:sign_in), new_user_registration_path %></li>
+    <li><%= link_to I18n.t(:login), new_user_session_path %></li>
+  <% end %>
+  </ul>
+</div>
+</html>

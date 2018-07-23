@@ -4,8 +4,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :job, :birthday,
-                                      :family, :relation_type])
+    keys = %i[name job birthday family relation_type]
+    devise_parameter_sanitizer.permit(:sign_up, keys: keys)
   end
-
 end
