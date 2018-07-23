@@ -1,0 +1,8 @@
+pt-BR:
+  simple_form:
+    labels:
+      user:
+        email: 'Email'
+        username: 'Usuário'
+        password: 'Senha'
+        password_confirmation: 'Confirmar'
