@@ -13,8 +13,8 @@ en:
     # Examples
     # labels:
     #   defaults:
-    #     password: 'Senha'
-    #  user:
+    #     password: 'Password'
+    #   user:
     #     new:
     #       email: 'E-mail to sign in.'
     #     edit:
