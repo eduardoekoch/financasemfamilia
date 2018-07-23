@@ -12,7 +12,7 @@ feature 'visitor_sign_up' do
     fill_in 'Confirmar', with: '123456'
     click_on 'Sign up'
 
-    expect(page).to have_content('Usuário cadastrado com sucesso')
+    expect(page).to have_content('Login efetuado com sucesso.')
     expect(page).to have_content('teste@gmail.com')
     expect(page).not_to have_content('Cadastro')
   end
