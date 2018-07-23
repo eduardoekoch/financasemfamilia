@@ -1,42 +1,67 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/channels/application_cable/channel.rb": [
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/controllers/home_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/channels/application_cable/connection.rb": [
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/models/user.rb": [
+        0,
+        null,
+        null,
+        0,
+        0,
+        0
+      ],
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/controllers/application_controller.rb": [
+      "/Users/marcos.vieira/Documents/Workspace/Cursos/CampusCode/financasemfamilia/app/channels/application_cable/channel.rb": [
         0,
-        0
-      ],
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/helpers/application_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/mailers/application_mailer.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/models/application_record.rb": [
         0,
         0,
         0
       ]
     },
-    "timestamp": 1532136265
+    "timestamp": 1532354596
   }
 }
