@@ -1,48 +1,48 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/controllers/home_controller.rb": [
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/controllers/home_controller.rb": [
         1,
         1,
         null,
         null
       ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/controllers/application_controller.rb": [
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/controllers/application_controller.rb": [
         1,
         null
       ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/models/application_record.rb": [
-        0,
-        0,
-        0
-      ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/channels/application_cable/connection.rb": [
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/channels/application_cable/channel.rb": [
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/helpers/application_helper.rb": [
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/helpers/application_helper.rb": [
         0,
         0
       ],
-      "/home/eduardokoch/Documents/financasemfamilia/financasemfamilia/app/mailers/application_mailer.rb": [
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/jobs/application_job.rb": [
         0,
+        0
+      ],
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/campuscode06/workspace/financafamilia/financasemfamilia/app/models/application_record.rb": [
         0,
         0,
         0
       ]
     },
-    "timestamp": 1532345440
+    "timestamp": 1532380595
   }
 }
