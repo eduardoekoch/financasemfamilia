@@ -1,0 +1,12 @@
+pt-BR:
+  activerecord:
+    models:
+      user: Usuário
+      attributes:
+        user:
+          email: 'Email'
+          password: 'Senha'
+  sign_up: 'Cadastrar-me'
+  login: 'Entrar'
+  logout: 'Sair'
+  sign_in: 'Cadastre-se'
