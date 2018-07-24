@@ -2,20 +2,27 @@ require 'rails_helper'
 
 feature 'User inserts your own incomes' do
     scenario 'successfully' do
-        type = create(:income_type)
+        user = create(:user)
 
         visit root_path
-        click_on 'Inserir receita'
+        click_on 'Entrar'
 
-        #fill_in 'Data:', with: '15/05/2018'
-        #fill_in 'Descrição da receita:', with: 'Pagamento de férias'
-        #fill_in 'Valor da receita:', with: 'R$ 2.000,00'
+        fill_in 'Email', with: 'teste@gmail.com'
+        fill_in 'Senha', with: '123456'
+        click_on 'Log in'
+
+        click_on 'Inserir ganhos'
+        
+        fill_in 'Data:', with: '15/05/2018'
+        fill_in 'Descrição da receita:', with: 'Pagamento de férias'
+        fill_in 'Valor da receita:', with: 'R$ 2.000,00'
         select 'Férias', from: 'Tipo de receita'
+        choose 'Usual'
 
-        click_on 'Inserir'
+        click_on 'Registrar'
 
         expect(page).to have_content('Receita inserida com sucesso!')
-        expect(type).not_to be_empty
+        # expect(page).to have_css()
     end
 
     # scenario 'and not must fill blank'
