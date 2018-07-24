@@ -14,11 +14,13 @@ class ExpensesController < ApplicationController
     if @expense.save
       flash[:notice] = 'Saída de recursos cadastrada com sucesso!'
       redirect_to expense_path(@expense)
-    else 
+    else
       render 'new'
     end
   end
+
   private
+
   def expense_params
     params.require(:expense).permit(:date, :expense_type, :description, :value)
   end
