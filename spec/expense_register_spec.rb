@@ -26,15 +26,14 @@ require 'rails_helper'
       visit new_expense_path
 
       fill_in 'Data', with: ''
-      fill_in 'Descrição', with: 'Comprei uma calça jens azul da marca Jens Sucesso e comprei uma saia e blusa para minha filha,
-       todas rosas com flores vermelhas e comprei uma gravata para meu marido'
+      fill_in 'Descrição', with: ''
       fill_in 'Valor', with: ''
       select '', from: 'Tipo'
 
       click_on 'Registrar'
 
       expect(page).to have_css('p', text: 'Data não pode ficar em branco')
-      expect(page).to have_css('p', text: 'Descrição excede o limite de 25 caracteres')
+      expect(page).to have_css('p', text: 'Descrição não pode ficar em branco')
       expect(page).to have_css('p', text: 'Valor não pode ficar em branco')
       expect(page).to have_css('p', text: 'Tipo não pode ficar em branco')
     end

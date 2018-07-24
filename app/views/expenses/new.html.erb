@@ -4,12 +4,10 @@
   <p> <%= erro %></p>
 <% end %>
 <%= simple_form_for @expense do |f| %>
-  <%= f.input :date, label: 'Data' %>
-  <%= f.input :description, label: 'Descrição' %>
+  <%= f.input :date %>
+  <%= f.input :description%>
   <%= f.input :value, label: 'Valor' %>
-  <%= f.input :expense_type, priority: [ 'Alimentação' ], collection: [ 'Saúde', 'Educação', 'Alimentação', 'Transporte', 'Moradia', 
-                                  'Liquidação de dívidas (empréstimos e financiamentos)', 'Fatura no cartão de crédito', 'Lazer', 
-                                  'Vestuário e acessórios', 'Obtenção de serviços', 'Outros Bens', 'Transferência para investimentos'],
+  <%= f.input :expense_type, priority: [ 'Alimentação' ], collection: @expense_types,
                                    label: 'Tipo'  %>
   <%= f.button :submit, 'Registrar' %>
 <% end %>

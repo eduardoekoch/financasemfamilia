@@ -1,11 +1,12 @@
-Documentation:
-  Enabled: false
+inherit_mode:
+  merge:
+    - Exclude
+    - Include
 Rails:
   Enabled: true
-Style/FrozenStringLiteralComment:
-  Enabled: false
 AllCops:
-  TargetRubyVersion: 2.4
+  UseCache: false
+  TargetRubyVersion: 2.3
   Include:
     - '**/Rakefile'
     - '**/Gemfile'
@@ -16,6 +17,9 @@ AllCops:
     - 'db/**/*'
     - 'config/**/*'
     - 'script/**/*'
+    - 'spec/spec_helper.rb'
     - 'spec/rails_helper.rb'
 Metrics/BlockLength:
   ExcludedMethods: ['describe', 'context', 'feature', 'scenario', 'let']
+Style/FrozenStringLiteralComment:
+  Enabled: false
