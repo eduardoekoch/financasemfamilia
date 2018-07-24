@@ -1,0 +1,10 @@
+pt-BR:
+  activerecord:
+    models:
+      expense: Despesa
+    attributes:
+      expense:
+        date: Data
+        description: Descrição
+        value: Valor
+        expense_type: Tipo
