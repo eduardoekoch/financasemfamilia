@@ -3,9 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
-gem 'devise', '>= 4.7.1'
+gem 'devise', '>= 4.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -43,7 +43,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution / get debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '>= 3.31.0'
-  gem 'factory_bot_rails', '>= 5.1.1'
+  gem 'factory_bot_rails', '>= 6.0.0'
   gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
   gem 'rubocop', '~> 0.58.1', require: false
 end
