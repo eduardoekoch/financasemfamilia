@@ -5,7 +5,7 @@ ruby '2.5.1'
 
 gem 'devise', '>= 4.8.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.4', '>= 6.0.4.8'
+gem 'rails', '~> 6.0.5', '>= 6.0.5.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
