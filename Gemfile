@@ -5,13 +5,13 @@ ruby '2.5.1'
 
 gem 'devise', '>= 4.8.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.5', '>= 6.0.5.1'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 4.3', '>= 4.3.12'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.1', '>= 5.1.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -23,8 +23,8 @@ gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootstrap', '~> 4.3.1'
-gem 'jbuilder', '~> 2.10', '>= 2.10.0'
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jbuilder', '~> 2.11', '>= 2.11.5'
+gem 'jquery-rails', '>= 4.5.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
