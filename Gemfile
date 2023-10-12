@@ -29,7 +29,7 @@ gem 'jquery-rails', '>= 4.5.1'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'simple_form', '>= 5.2.0'
+gem 'simple_form', '>= 5.3.0'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
