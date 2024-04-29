@@ -23,7 +23,7 @@ gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootstrap', '~> 4.3.1'
-gem 'jbuilder', '~> 2.11', '>= 2.11.5'
+gem 'jbuilder', '~> 2.12', '>= 2.12.0'
 gem 'jquery-rails', '>= 4.5.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
