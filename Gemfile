@@ -5,7 +5,7 @@ ruby '2.5.1'
 
 gem 'devise', '>= 4.9.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
+gem 'rails', '~> 7.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'bootstrap', '~> 4.4.1'
+gem 'bootstrap', '~> 4.6.2', '>= 4.6.2.1'
 gem 'jbuilder', '~> 2.12', '>= 2.12.0'
 gem 'jquery-rails', '>= 4.6.0'
 # Use Redis adapter to run Action Cable in production
